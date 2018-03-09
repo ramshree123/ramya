@@ -1,0 +1,10 @@
+#file manupalation
+r=open("2.txt","w")
+r.write("hello")
+r=open("2.txt","r")
+r.read()
+r=open("2.txt","a")
+r.write("     its me")
+r=open("2.txt","r")
+r.read()
+print("compleated")
